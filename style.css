@@ -1,0 +1,97 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#main{
+    background-image: url("images/Binangonan.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    margin: 5px 0 0 0;
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main h1  {
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #dad7cd;
+    margin: 0 auto 0 auto;
+    padding: 0 5px 0 5px;
+    
+   
+}
+#main h3 {
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #dad7cd;
+    padding: 0 5px 0 5px;
+}
+
+#nav-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    margin-top: 70px;
+}
+
+#church{
+    border: 1px solid black;
+    border-radius: 105px;
+    width: 220px;
+}
+
+#thunderbird{
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 260px;
+    height: 215px;
+}
+
+#calvary{
+    border: 1px solid black;
+    border-radius: 900px;
+    width: 250px;
+    height: 215px;
+}
+
+.ace{
+    width: 250px;
+}
+
+.card{
+    background: #e9d8a6;
+    border-bottom: 7px solid #ee9b00;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    text-align: center;
+    color: black;
+    margin: 80px auto ;
+}
+
+.border-blue{
+    border: 1px dotted blue;
+}
+
+.card p{
+    font-style: italic;
+}
+
+#footer{
+    margin: 40px auto 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 2px black;
+    width: 400px;
+}
+
+
